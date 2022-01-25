@@ -31,9 +31,9 @@ img{
 }
 
 div{
-    height: 100px;
+    min-height: 100px;
     padding: 20px;
-    border: solid #ffffff 3px;
+    border: 3px solid #ffffff;
 }
 .intro{
     /* height should be 100px or more */
@@ -45,6 +45,9 @@ div{
 }
 
 .red{
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #ffffff;
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
@@ -53,6 +56,9 @@ div{
 }
 
 .blue{
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #ffffff;
     background-color:#0000ff;
     text-align: left;
     margin-right: 50px;
@@ -60,6 +66,9 @@ div{
     border-bottom: 3px;
 }
 .yellow{
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #ffffff;
     background-color:#ffff00;
     /* changed font color because the white was hard to read */
     color: black;
@@ -74,11 +83,14 @@ div{
 }
 
 .green{
-    background-color:#00EB00;
+    background-color: #006600;
     text-align: left;
     margin-right: 50px;
     border-bottom: 3px;
     border-right: 10px;
+    min-height: 100px;
+    padding: 20px;
+    border: 3px solid #ffffff;
 }
 
 span{
@@ -93,5 +105,5 @@ footer{
 footer p{
     font-size: 20px;
     text-align: center;
-    padding: 10px 10px 0 10px;
+    padding: 10px 10px 0px 10px;
 }
